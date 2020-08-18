@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Open
+  version: '1.0'
+  description: Api de acceso a lo datos de tiempo
+  contact:
+    name: Jorge
+    email: jjgonzalezperez@gmail.com
+    url: www.gmail.com
+  license:
+    name: Apache 2.0
+    url: www.gmail.com
+  termsOfService: www.gmail.com
+servers:
+  - url: 'http://localhost:3000'
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    API Key - 1:
+      type: http
+      scheme: basic
